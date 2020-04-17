@@ -65,7 +65,12 @@ dt {
     display: inline;
     font-size: 16px ;
 }
-
+dt::after {
+    content: ",";
+    /*display: block;
+    clear: both;
+    margin-bottom: 15px;*/
+}
 /* 
     Add a CSS ruleset to accomplish the following:
     - Make a comma appear after the name of each menu item
